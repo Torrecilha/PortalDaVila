@@ -1,28 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="css\styles.css">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Portal da Vila</title>
     <script src='main.js'></script>
 </head>
 <body>
     <section id="header">
-        <div id="higherMenu">
-            <div id="higherMenuContent">
-                <div id="divLogo">
-                    <a href="index.html"><img src="" id="logo"></a>
+        <div id="headerContent">
+            <div id="higherMenu">
+                <div id="higherMenuContent">
+                    <div id="divLogo">
+                        <a href="index.html"><img src="img/logo.png" id="logo"></a>
+                    </div>
+                    <div id="divSearchBar">
+                        <input type="text" id="searchBar" placeholder="Pesquisar produtos, lojas, serviços..." >
+                        <a href=""><img src="img/searchIcon.png" id="searchIcon" alt="Pesquisar"></a>
+                    </div>
+                    <div id="parceirosList">
+                        <a href="parceiros.html">
+                            <img src="img/parceirosIcon.png" id="parceirosIcon">
+                            <h2 id="parceirosTitle">Nossos Parceiros</h2>
+                        </a>
+                    </div>
+                    <!--não sei como implementar o usuário-->
                 </div>
-                <div id="divSearchBar">
-                    <input type="text" id="searchBar" placeholder="Pesquisar produtos, lojas, serviços..." >
-                    <a href=""><img src="" id="searchIcon" alt="Pesquisar"></a>
-                </div>
-                <div id="parceirosList">
-                    <img src="" id="parceirosIcon">
-                </div>
-                <!--não sei com implementar o usuário-->
             </div>
-        </div>
-        <div id="bottomMenu">
+            <div id="bottomMenu">
+            </div>
         </div>
     </section>
 </body>
