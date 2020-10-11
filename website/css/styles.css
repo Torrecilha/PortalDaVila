@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: white;
 }
 
 #header{
@@ -52,4 +52,55 @@ body{
     width: 1.5rem;
     float: right;
     padding-right: 0.5rem;
+}
+
+#register_form{
+    margin: 48px auto 32px;
+    width: 714px;
+}
+
+#register_div{
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+    background-color: white;
+    padding: 20px 36px 36px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#register_body{
+    background-color: whitesmoke;
+}
+
+#title_data{
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.register_input{
+    margin: 8px 0 4px; 
+    font-size: 23px;
+    border: transparent;
+    border-radius: 8px;
+    height: 100%;
+    width: 20rem;
+    color:#C0C0C0;
+}
+
+#form_action{
+    padding-top: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#register_submit{
+    font-size: 23px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    background-color: white;
+    height: 40px;
+    width: 150px;
+}
+
+#title_div{
+    margin: 48px auto 32px;
+    width: 714px;
 }
