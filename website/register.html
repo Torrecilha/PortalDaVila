@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/reset.css">
+    <title>Cadastre-se</title>
+    <script src='register.js'></script>
+</head>
+<body>
+    <header id="nav-header">
+        <div id="divLogo">
+            <a href="index.html"><img src="" id="logo"></a>
+        </div>
+    </header>
+    <div>
+        <h1 id="title">Criar conta</h1>
+    </div>
+    <div id="register_data">
+        <h1 id="title_data">Seus dados</h1>
+        <form id="register_form" method="POST" action="/register.php">
+            <div class="register_container">
+                <div class="register_container">
+                    <label for="first_name">Nome</label><br>
+                    <input type="text" id="first_name" name="first_name" value="Example">   
+                </div>
+                <div class="register_container">
+                    <label for="last_name">Sobrenome</label><br>
+                    <input type="text" id="last_name" name="last_name" value="Example"> 
+                </div>
+            </div>
+            <div class="register_container">
+                <label for="CPF">CPF</label><br>
+                <input type="text" id="CPF" name="CPF"  value="092.293.039-03"> 
+            </div>
+            
+            <div class="register_container">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" value="example@ex.com"> 
+            </div>  
+            <div class="register_container">
+                <div class="register_container">
+                    <label for="password">Senha</label><br>
+                    <input type="password" id="password" name="password" value="example123"> 
+                </div>
+                <div class="register_container">
+                    <label for="confirm_password">Confirme a senha</label><br>
+                    <input type="password" id="confirm_password" name="confirm_password" value="example123"> 
+                </div>
+            </div>
+            <div id="form_action">
+                <input type="submit" id="register" name="register" value="Cadastrar">
+                <p>ao clicar em cadastrar, você concorda com os nossos Termos de Uso e Política de Privacidade</p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
