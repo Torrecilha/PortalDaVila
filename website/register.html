@@ -20,38 +20,59 @@
             <div id="register_div">
                 <h1 id="title_data">Seus dados</h1>
                 <div class="register_container">
-                    <div class="register_container">
-                        <label for="first_name">Nome</label><br>
+                    <div id="divFirstname" class="register_container">
+                        <div>
+                            <label for="first_name">Nome</label><br>
+                        </div>
                         <input type="text" id="first_name" name="first_name" value="Example" class="register_input">   
+                        <div class="divBorder">
+                        </div>
                     </div>
                     <div class="register_container">
-                        <label for="last_name">Sobrenome</label><br>
+                        <div>
+                            <label for="last_name">Sobrenome</label><br>
+                        </div>
                         <input type="text" id="last_name" name="last_name" value="Example" class="register_input"> 
+                        <div class="divBorder">
+                        </div>
                     </div>
                 </div>
                 <div class="register_container">
-                    <label for="CPF">CPF</label><br>
-                    <input type="text" id="CPF" name="CPF"  value="092.293.039-03" class="register_input"> 
-                </div>
-                
-                <div class="register_container">
-                    <label for="email">Email</label><br>
+                    <div>
+                        <label for="email">Email</label><br>
+                    </div>
                     <input type="email" id="email" name="email" value="example@ex.com" class="register_input"> 
+                    <div class="divBorder">
+                    </div>
                 </div>  
                 <div class="register_container">
-                    <div class="register_container">
-                        <label for="password">Senha</label><br>
+                    <div id="divPassword" class="register_container">
+                        <div>
+                            <label for="password">Senha</label><br>
+                        </div>
                         <input type="password" id="password" name="password" value="example123" class="register_input"> 
+                        <div class="divBorder">
+                        </div>
                     </div>
                     <div class="register_container">
-                        <label for="confirm_password">Confirme a senha</label><br>
+                        <div>
+                            <label for="confirm_password">Confirme a senha</label><br>
+                        </div>
                         <input type="password" id="confirm_password" name="confirm_password" value="example123" class="register_input"> 
+                        <div class="divBorder">
+                        </div>
                     </div>
                 </div>
             </div>
             <div id="form_action">
-                <input type="submit" id="register_submit" name="register" value="Cadastrar">
-                <p>Ao clicar em cadastrar, você concorda com os nossos Termos de Uso e Política de Privacidade</p>
+                <div id="divRegisterButton">
+                    <input type="submit" id="register_submit" name="register" value="Cadastrar">
+                </div>
+                <div>
+                    <p id="Terms">
+                        Ao clicar em cadastrar, você concorda com os nossos Termos de Uso e Política de Privacidade
+                    </p>
+                </div>
             </div>
         </form>
     </div>
