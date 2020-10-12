@@ -21,11 +21,11 @@
 }
 
 .register_input{
-    margin: 8px 0 4px; 
+    margin: 8px 0 1px; 
     font-size: 23px;
     height: 100%;
     width: 18rem;
-    color:#C0C0C0;
+    color: rgb(150, 150, 150);
     box-shadow: 0 0 0 0;
     border: 0 none;
     outline: 0;
