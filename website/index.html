@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style-index.css">
     <title>Portal da Vila</title>
     <script src='main.js'></script>
 </head>
 <body>
-    <section id="header">
+    <header>
         <div id="headerContent">
             <div id="higherMenu">
                 <div id="higherMenuContent">
@@ -17,10 +17,10 @@
                     </div>
                     <div id="divSearchBar">
                         <input type="text" id="searchBar" placeholder="Pesquisar produtos, lojas, serviços..." >
-                        <a href=""><img src="img/searchIcon.png" id="searchIcon" alt="Pesquisar"></a>
+                        <button type="submit" alt="Pesquisar"><img src="img/searchIcon.png" id="searchIcon"></button>
                     </div>
                     <div id="parceirosList">
-                        <a href="parceiros.html">
+                        <a href="parceiros.html" id="parceirosLink">
                             <img src="img/parceirosIcon.png" id="parceirosIcon">
                             <h2 id="parceirosTitle">Nossos Parceiros</h2>
                         </a>
@@ -30,7 +30,7 @@
             </div>
             <div id="bottomMenu">
             </div>
-        </div>
-    </section>
+        </div> 
+    </header>
 </body>
 </html>
