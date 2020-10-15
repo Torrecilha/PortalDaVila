@@ -13,9 +13,14 @@ header{
     padding-bottom: 0.5rem;
 }
 
+#higherMenu{
+    height: 100%;
+}
 
 #higherMenuContent{
-    display: inline-flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
     height: 100%;
     width: 100%;
 }
@@ -26,22 +31,30 @@ header{
 }
 
 #logo{
+    top: auto;
+    width: 100%;
 }
 
-#divSearchBar{
+#searchBar{
+    display: flex;
     border: solid 1px;
-    border-radius: 3px;
-    width: 32rem;
+    border-radius: 4px;
     height: 1.7rem;
     background-color:#FFFFFF;
     margin-top: auto;
     margin-bottom: auto;
 }
 
-#searchBar{
+#divSearchBar{
+    height: 100%;
+    width: 29rem;
+    padding-left: 0.5rem;
+    padding-right: 0.25rem;
+}
+
+#inputSearchBar{
     float: left;
     background-color: transparent;
-    padding-left: 0.5rem;
     font-size: 18px;
     border: transparent;
     height: 100%;
@@ -51,33 +64,55 @@ header{
     outline: 0;
 }
 
+#divSearchButton{
+    padding-left: 0.25rem;
+    padding-right: 0.5rem;
+}
+
 #searchButton{
     background-color: transparent;
-    float: right;
-    position: absolute;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+#searchButton:hover{
+    cursor: pointer;
 }
 
 #searchIconButton{
-    width: 1.5rem;
-    display: inline-block;
-    align-items: right;
+    width: 1.4rem;
 }
 
 #parceirosList{
-    font-size: 1.5rem;
+    margin-bottom: auto;
+    margin-top: auto;
+    padding-left: 2.5rem;
 }
 
 #parceirosLink{
     text-decoration: none;
+    display: inline-flex;
 }
 
 #parceirosIcon{
     width: 2rem;
+    padding-right: 0.4rem;
 }
 
 #parceirosTitle{
-    font-size: 100%;
-    display: inline;
-    float: right;
-    padding-right: 0.5rem;
+    position: relative;
+    font-size: 1.2rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: lighter;
+    color: #171717;
+    transition: 0.25s;
+    border-bottom: 1px solid transparent;
+}
+
+#parceirosTitle:hover{
+    cursor: pointer;
+    color: #2f5380;
+    border-color: #2f5380;
 }
